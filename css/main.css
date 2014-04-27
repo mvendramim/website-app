@@ -1,0 +1,80 @@
+body,
+html {
+    
+    margin: 0;
+    height: 100%;
+    background-color: #2BBCBA;
+    
+}
+
+#home   {
+    
+    width: 100%;
+    height: 100%;
+    min-height: 600;
+    max-height: 600;
+    
+}
+
+#logo-home  {
+
+    background-image: url("../img/logo-home.png");
+    height: 250px;
+    width: 300px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+#second-screen   {
+    
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    
+}
+
+
+.entypo {
+    font-family:"Entypo";
+    font-size: 30px;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'AvenirLTStd55Roman';
+    src: url('../fonts/avenirltstd-roman.eot');
+    src: url('../fonts/avenirltstd-roman.eot') format('embedded-opentype'),
+         url('../fonts/avenirltstd-roman.woff') format('woff'),
+         url('../fonts/avenirltstd-roman.ttf') format('truetype'),
+         url('../fonts/avenirltstd-roman.svg#AvenirLTStd55Roman') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd85Heavy';
+    src: url('../fonts/avenirltstd-heavy.eot');
+    src: url('../fonts/avenirltstd-heavy.eot') format('embedded-opentype'),
+         url('../fonts/avenirltstd-heavy.woff') format('woff'),
+         url('../fonts/avenirltstd-heavy.ttf') format('truetype'),
+         url('../fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
+}
+
+@font-face {
+    font-family:'Entypo';
+    src: url('../fonts/entypo.eot');
+    src: url('../fonts/entypo.eot') format('embedded-opentype'),
+         url('../fonts/entypo.woff') format('woff'),
+         url('../fonts/entypo.ttf') format('truetype'),
+         url('../fonts/entypo.svg#Entypo') format('svg');
+
+        
+}
+
+
+    

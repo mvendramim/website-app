@@ -1,0 +1,160 @@
+#fixed  {
+    
+    position: fixed;
+    height: 600px;
+    width: 300px;
+    top: 0px;
+}
+
+.logo   {
+    
+    width: 300px;
+    height: 100px;
+    margin-left: 30px;
+    background-image: url("../img/logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:1%;
+    opacity: 0;
+    -o-transition: all 0.30s ease;
+   -ms-transition: all 0.30s ease;
+   -moz-transition: all 0.30s ease;
+   -webkit-transition: all 0.30s ease;
+}
+
+.logo-scroll   {
+    
+    opacity: 100;
+    -o-transition: all 0.30s ease;
+   -ms-transition: all 0.30s ease;
+   -moz-transition: all 0.30s ease;
+   -webkit-transition: all 0.30s ease;
+}
+
+.home-nav   {
+    
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+
+.current  {
+    
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    background-image: url("../img/detail.png");
+    background-size: contain;
+    background-position: center;    
+    list-style: none;
+}
+
+.item   {
+    
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    background-image: url("../img/detail2.png");
+    background-size: contain;
+    background-position: center;
+    list-style: none;
+
+    
+}
+
+.selected-item-red  {
+    
+    background-image: url("../img/detailred.png");
+    
+}
+
+.item-red   {
+    
+    background-image: url("../img/detail2red.png");
+    
+}
+
+.nav-item  {
+    
+
+    height: 25px;
+    width: 150px;
+    margin-top: 18px;
+    text-align: left;   
+    list-style: none;
+    position: relative;
+    left: -75px;
+    margin-left: 35px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'AvenirLTStd55Roman', sans-serif;
+    text-indent:40px;
+    cursor: pointer;
+    -o-transition: all 0.30s ease;
+   -ms-transition: all 0.30s ease;
+   -moz-transition: all 0.30s ease;
+   -webkit-transition: all 0.30s ease;
+}
+
+.nav-text   {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.nav-text-selected   {
+    
+    color: #e43e25;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+}
+
+.nav-text:hover   { 
+
+    font-family: 'AvenirLTStd85Heavy',serif;
+   -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+    
+    
+}
+
+#nav  {
+ 
+    float:left;
+}
+
+#right   {
+ 
+    width: 160px;
+    float:left;
+    opacity: 0;
+    color: white;
+    text-decoration: none;
+    -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+}
+
+
+#right:hover   {
+ 
+    width: 160px;
+    float:left;
+    opacity: 100;
+    color: white;
+    text-decoration: none;
+    -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+}
