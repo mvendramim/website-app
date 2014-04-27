@@ -1,6 +1,20 @@
 $(document).ready(function() {
     listenScrollToChangeMenuColor();
+    configureLightBox();
 });
+
+function configureLightBox()
+{
+$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+    disableOn: 700,
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+
+    fixedContentPos: false
+  });
+};
 
 function listenScrollToChangeMenuColor()
 {
@@ -26,15 +40,7 @@ function listenScrollToChangeMenuColor()
   });
 };
 
-$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
 
-        fixedContentPos: false
-});
 
 var mainbottom = 550;
 var logo = 700;
