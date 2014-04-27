@@ -1,6 +1,23 @@
 $(document).ready(function() {
     listenScrollToChangeMenuColor();
     configureLightBox();
+    $('#nav').onePageNav({
+    currentClass: 'current',
+    changeHash: false,
+    scrollSpeed: 750,
+    scrollThreshold: 0.5,
+    filter: '',
+    easing: 'swing',
+    begin: function() {
+        //I get fired when the animation is starting
+    },
+    end: function() {
+        //I get fired when the animation is ending
+    },
+    scrollChange: function($currentListItem) {
+        //I get fired when you enter a section and I pass the list item of the section
+    }
+});
 });
 
 function configureLightBox()
@@ -43,7 +60,6 @@ function listenScrollToChangeMenuColor()
 
 
 var mainbottom = 550;
-var logo = 700;
  
 $(window).on('scroll',function(){
     
@@ -66,11 +82,7 @@ $(window).on('scroll',function(){
         $('.current').removeClass('selected-item-red');
    }
     
-    if (stop > logo) {
-        $('.logo').addClass('logo-scroll');
-    } else {
-        $('.logo').removeClass('logo-scroll');
-   }
+
 
 
 });

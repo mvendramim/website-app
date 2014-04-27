@@ -8,7 +8,7 @@
 
 .logo   {
     
-    width: 300px;
+    width: 270px;
     height: 100px;
     margin-left: 30px;
     background-image: url("../img/logo.png");
@@ -17,11 +17,6 @@
     background-repeat: no-repeat;
     position: absolute;
     top:1%;
-    opacity: 0;
-    -o-transition: all 0.30s ease;
-   -ms-transition: all 0.30s ease;
-   -moz-transition: all 0.30s ease;
-   -webkit-transition: all 0.30s ease;
 }
 
 .logo-scroll   {
@@ -36,10 +31,12 @@
 .home-nav   {
     
     width: 350px;
-    height: 400px;
+    height: 40%;
     position: absolute;
     left: 0px;
-    top: 300px;
+    top:300px;
+
+    
 }
 
 .current  {
