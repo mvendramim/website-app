@@ -54,6 +54,14 @@
 
     
 }
+.item.red {
+    background-image: url("../img/detail2red.png");
+}
+.item.red.current {
+    background-image: url("../img/detailred.png");
+}
+
+
 
 .current  {
     
