@@ -27,8 +27,8 @@ $(document).ready(function() {
 });
 
 function configureEventsOfMenu() {
-    $(document).on('click', '.item', function() {
-        if ($(this).attr('id') === 'li-second-screen') {
+    $(document).on('click', '.item > a', function() {
+        if ($(this).parent().attr('id') === 'li-second-screen') {
             $('.item').addClass('red');
         } else {
             $('.item').removeClass('red');
