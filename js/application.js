@@ -36,6 +36,7 @@ function configureEventsOfMenu() {
     });
 }
 
+
 function configureLightBox()
 {
 $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
