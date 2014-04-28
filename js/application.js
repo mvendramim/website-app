@@ -10,14 +10,22 @@ $(document).ready(function() {
         easing: 'swing',
         begin: function() {
             //I get fired when the animation is starting
+
         },
         end: function() {
             //I get fired when the animation is ending
+            var $selectedItem = $('.item.current');
+            if ($selectedItem.attr('id') === 'li-second-screen') {
+                $('.item').addClass('red');
+
+            } else {
+                $('.item').removeClass('red');
+            }
+
         },
         scrollChange: function($currentListItem) {
             $liSecondScreen = $('#li-second-screen');
             if ($currentListItem.attr('id') === $liSecondScreen.attr('id')) {
-                console.log('banana');
                 $('.item').addClass('red');
             } else {
                 $('.item').removeClass('red');

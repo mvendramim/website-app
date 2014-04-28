@@ -61,6 +61,13 @@
     background-image: url("../img/detailred.png");
 }
 
+.item > a {
+    color: white;
+}
+.item.red > a {
+    color: #e43e25;
+}
+
 
 
 .current  {
