@@ -17,7 +17,8 @@ $(document).ready(function() {
         },
         scrollChange: function($currentListItem) {
             $liSecondScreen = $('#li-second-screen');
-            if ($currentListItem.attr('id') === $liSecondScreen.attr('id')) {
+            var currentItemId = $currentListItem.attr('id');
+            if (currentItemId === 'li-second-screen' || currentItemId === 'li-third-screen') {
                 $('.item').addClass('red');
             } else {
                 $('.item').removeClass('red');
@@ -28,11 +29,15 @@ $(document).ready(function() {
 
 function configureEventsOfMenu() {
     $(document).on('click', '.item > a', function() {
-        if ($(this).parent().attr('id') === 'li-second-screen') {
+        var clickedLink = $(this).parent();
+        var clickedLinkId = clickedLink.attr('id');
+
+        if (clickedLinkId === 'li-second-screen' || clickedLinkId === 'li-third-screen') {
             $('.item').addClass('red');
         } else {
             $('.item').removeClass('red');
         }
+
     });
 }
 

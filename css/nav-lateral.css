@@ -67,6 +67,9 @@
 .item.red > a {
     color: #e43e25;
 }
+.item.yellow > a {
+    color: yellow;
+}
 
 
 
