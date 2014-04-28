@@ -51,6 +51,10 @@
     background-position: left center;
     background-repeat: no-repeat;
     list-style: none;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
 
     
 }
@@ -75,13 +79,17 @@
 
 .current  {
     
-    width: 150px;
+    width: 200px;
     height: 25px;
     margin-top: 20px;
     background-image: url("../img/detail.png");
     background-size: contain;
     background-position: left center;    
     list-style: none;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
 }
 
 .selected-item-red  {
@@ -106,6 +114,10 @@
     text-indent:40px;
     line-height: 25px;
     text-transform: uppercase;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
 }
 
 a   {
