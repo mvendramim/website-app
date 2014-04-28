@@ -21,6 +21,16 @@ p   {
     background-image: url("../img/play.png")
 }
 
+.popup-vimeo    {
+    
+    width: 2%;
+}
+
+.mfp-iframe  {
+    
+    
+}
+
 #download   {
     
     width: 300px;
@@ -37,11 +47,28 @@ p   {
     line-height: 150px;
     color: white;
     font-size: 30px;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
 }
+
+#download:hover   {
+    
+     background-image: url("../img/download2.png");
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+}
+
 
 #picture    {
     
     background-image: url("../img/nexus-5-mockup.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
     width: 500px;
     height: 500px;
     position: absolute;
@@ -95,7 +122,8 @@ p   {
 
 .entypo {
     font-family:"Entypo";
-    font-size: 30px;
+    font-size: 60px;
+    line-height: 150px
 }
 
 
