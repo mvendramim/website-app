@@ -17,6 +17,7 @@
     background-repeat: no-repeat;
     position: absolute;
     top:1%;
+    z-index: 2;
 }
 
 .logo-scroll   {
@@ -39,28 +40,30 @@
     
 }
 
-.current  {
-    
-    width: 20px;
-    height: 20px;
-    margin-top: 20px;
-    background-image: url("../img/detail.png");
-    background-size: contain;
-    background-position: center;    
-    list-style: none;
-}
 
 .item   {
     
-    width: 20px;
-    height: 20px;
+    width: 150px;
+    height: 25px;
     margin-top: 20px;
     background-image: url("../img/detail2.png");
     background-size: contain;
-    background-position: center;
+    background-position: left center;
+    background-repeat: no-repeat;
     list-style: none;
 
     
+}
+
+.current  {
+    
+    width: 150px;
+    height: 25px;
+    margin-top: 20px;
+    background-image: url("../img/detail.png");
+    background-size: contain;
+    background-position: left center;    
+    list-style: none;
 }
 
 .selected-item-red  {
@@ -102,6 +105,11 @@
     
     color: white;
     text-decoration: none;
+    font-size: 20px;
+    font-family: 'AvenirLTStd55Roman', sans-serif;
+    text-indent:40px;
+    line-height: 25px;
+    text-transform: uppercase;
 }
 
 .nav-text-selected   {
