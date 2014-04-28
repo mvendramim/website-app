@@ -1,0 +1,32 @@
+#second-screen   {
+    
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: white;
+    padding-top: 200px;
+    
+}
+
+#about  {
+    
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: 15%;
+    margin-top: 50px;
+    padding-top: 0px;
+    
+}
+
+.title  {
+    
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #eeca14;
+    text-align: center;
+}
+
+.description-app    {
+    text-align: center;
+}

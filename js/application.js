@@ -32,7 +32,7 @@ function configureEventsOfMenu() {
         var clickedLink = $(this).parent();
         var clickedLinkId = clickedLink.attr('id');
 
-        if (clickedLinkId === 'li-second-screen' || clickedLinkId === 'li-third-screen') {
+        if (clickedLinkId === 'li-second-screen' || clickedLinkId === 'li-third-screen'  || clickedLinkId === 'li-fourth-screen') {
             $('.item').addClass('red');
         } else {
             $('.item').removeClass('red');
@@ -55,4 +55,12 @@ $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
   });
 };
 
-var mainbottom = 550;
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $(".logo").addClass("logo-scroll");
+    } else {
+        $(".logo").removeClass("logo-scroll");
+    }
+});

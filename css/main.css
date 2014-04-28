@@ -66,14 +66,14 @@ p   {
 #picture    {
     
     background-image: url("../img/nexus-5-mockup.png");
-    background-size: 400px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
     width: 500px;
     height: 500px;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 30px;
 }
 
 #home   {
@@ -96,7 +96,7 @@ p   {
     background-position: center;
     background-repeat: no-repeat;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
     
 }
 
@@ -111,21 +111,8 @@ p   {
     
 }
 
-#second-screen   {
-    
-    width: 100%;
-    min-height: 100%;
-    background-color: white;
-    
-}
 
-#third-screen   {
-    
-    width: 100%;
-    min-height: 100%;
-    background-color: black;
-    
-}
+
 
 
 .entypo {
