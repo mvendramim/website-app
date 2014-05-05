@@ -83,6 +83,9 @@ p   {
     min-height: 600;
     max-height: 600;
     background-color: #2BBCBA;
+    background-image: url("../img/image5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     z-index: 100;
     
 }
