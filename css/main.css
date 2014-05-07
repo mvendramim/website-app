@@ -11,6 +11,20 @@ p   {
     
 }
 
+#home   {
+    
+    width: 100%;
+    height: 900px;
+    min-height: 600;
+    /*max-height: 600;*/
+    background-color: #2BBCBA;
+    background-image: url("../img/image5.jpg");
+    background-repeat: no-repeat;
+    background-size: 120% auto;
+    z-index: 1000;
+    
+}
+
 #play-video   {
     
     width: 200px;
@@ -76,19 +90,7 @@ p   {
     right: 30px;
 }
 
-#home   {
-    
-    width: 100%;
-    height: 900px;
-    min-height: 600;
-    /*max-height: 600;*/
-    background-color: #2BBCBA;
-    background-image: url("../img/image5.jpg");
-    background-repeat: no-repeat;
-    background-size: 120% auto;
-    z-index: 100;
-    
-}
+
 
 #logo-home  {
 
