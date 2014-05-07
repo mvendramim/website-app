@@ -5,8 +5,8 @@ $(document).ready(function() {
     $('#nav').onePageNav({
         currentClass: 'current',
         changeHash: false,
-        scrollSpeed: 950,
-        scrollThreshold: 0.5,
+        scrollSpeed: 2000,
+        scrollThreshold: 1.0,
         filter: '',
         easing: 'swing',
         begin: function() {
@@ -20,8 +20,12 @@ $(document).ready(function() {
             var currentItemId = $currentListItem.attr('id');
             if (currentItemId === 'li-second-screen' || currentItemId === 'li-third-screen') {
                 $('.item').addClass('red');
+                $('.logo').addClass('logo-scroll');
+                $('.logo').addClass('bounceInLeft');
             } else {
                 $('.item').removeClass('red');
+                $('.logo').removeClass('logo-scroll');
+                $('.logo').removeClass('bounceInLeft');
             }
         }
     });

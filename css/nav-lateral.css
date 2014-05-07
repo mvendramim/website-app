@@ -15,9 +15,20 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
+    position: fixed;
     top:1%;
     z-index: 1;
+    display: none;
+}
+
+.logo-scroll   {
+    
+    display: block;
+}
+
+.logo-white   {
+    
+    width: 600px;
 }
 
 
@@ -53,6 +64,7 @@
 }
 .item.red {
     background-image: url("../img/detail2red.png");
+    
 }
 .item.red.current {
     background-image: url("../img/detailred.png");

@@ -21,7 +21,7 @@ p   {
     background-image: url("../img/image5.jpg");
     background-repeat: no-repeat;
     background-size: 120% auto;
-    z-index: 1000;
+    z-index: 100;
     
 }
 
