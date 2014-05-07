@@ -68,3 +68,4 @@ $(window).scroll(function() {
         $(".logo").removeClass("logo-scroll");
     }
 });
+
