@@ -1,7 +1,8 @@
 #team   {
     
     width: 100%;
-    height: 900px;
+    height: auto;
+    min-height: 1200px;
     background-color: #2BBCBA;
     padding-top: 50px;
     
@@ -12,14 +13,16 @@
     margin-left: 350px;
     width: 50%;
     height: 500px;
-    background-color: grey;
 }
 
 .member {
     
     width: 200px;
-    height: 350px;
+    height: 300px;
     margin-left: 20px;
+    display: inline-table;
+    color: white;
+    text-align: center;
 }
 
 #nicolette  {
@@ -27,4 +30,74 @@
     width: 200px;
     height: 200px;
     background-image: url("../img/Nicolette.png");
+    background-size: contain;
+    background-position: center top;
+}
+
+#tori  {
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/Tori2.png");
+    background-size: contain;
+}
+
+#cris  {
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/Cris2.png");
+    background-size: contain;
+}
+
+#erica  {
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/Erica2.png");
+    background-size: contain;
+}
+
+#rebecca  {
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/Rebecca2.png");
+    background-size: contain;
+}
+
+
+#lindsay  {
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/Lindsay2.png");
+    background-size: contain;
+}
+
+
+#cayetana  {
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/Cayetana2.png");
+    background-size: contain;
+}
+
+
+#mackenzie  {
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/Mackenzie2.png");
+    background-size: contain;
+}
+
+
+#mayra  {
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/Mayra2.png");
+    background-size: contain;
 }

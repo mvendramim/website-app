@@ -18,7 +18,7 @@ p   {
     min-height: 600;
     /*max-height: 600;*/
     background-color: #2BBCBA;
-    background-image: url("../img/image5.jpg");
+    background-image: url("../img/bw.jpg");
     background-repeat: no-repeat;
     background-size: 120% auto;
     z-index: 100;
@@ -27,12 +27,14 @@ p   {
 
 #play-video   {
     
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 31px;
-    background-image: url("../img/play.png")
+    width: 250px;
+    height: 80px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/playvideo.png");
+    display: inline-table;
+    margin-left: 20px;
 }
 
 .popup-vimeo    {
@@ -47,14 +49,13 @@ p   {
 
 #download   {
     
-    width: 300px;
-    height: 150px;
+    width: 250px;
+    height: 80px;
     background-image: url("../img/download.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-table;
     cursor: pointer;
     text-align: center;
     text-transform: uppercase;
@@ -69,7 +70,7 @@ p   {
 
 #download:hover   {
     
-     background-image: url("../img/download2.png");
+     background-image: url("../img/HoverDownload.png");
     -o-transition: all 0.25s ease;
    -ms-transition: all 0.25s ease;
    -moz-transition: all 0.25s ease;
@@ -100,19 +101,28 @@ p   {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
     
+}
+
+#home-container {
+    
+    
+    position: absolute;
+    margin-left: 400px;
+    width: 60%;
+    top: 130px;
 }
 
 #headline   {
     
-    width: 40%;
     color: white;
-    font-size: 24px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    font-size: 72px;
+    font-family: 'AvenirLTStd85Heavy';
+    text-align: left;
     
 }
 
