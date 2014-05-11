@@ -58,7 +58,52 @@
     
 }
 
-#picture-teste   {
+#picture1   {
+    
+    width: 30%;
+    height: 400px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-image: url("../img/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+}
+
+#picture2   {
+    
+    width: 30%;
+    height: 400px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-image: url("../img/2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+}
+
+#picture4   {
+    
+    width: 30%;
+    height: 400px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-image: url("../img/4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+}
+
+#picture3   {
     
     width: 30%;
     height: 400px;
@@ -67,7 +112,7 @@
     position: relative;
     right: 80px;
     margin-top: 200px;
-    background-image: url("../img/nexus-5-mockup.png");
+    background-image: url("../img/3.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;

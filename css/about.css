@@ -3,15 +3,17 @@
     width: 100%;
     height: 900px;
     background-color: white;
-    padding-top: 200px;
+    background-image: url("../img/image5.jpg");
+    background-size: 1800px;
+    padding-top: 100px;
     
 }
 
 #about  {
     
-    width: 50%;
+    width: 45%;
     height: auto;
-    margin-left: auto;
+    margin-left: 400px;
     margin-right: 15%;
     margin-top: 50px;
     padding-top: 0px;
@@ -27,5 +29,10 @@
 }
 
 .description-app    {
-    text-align: center;
+    text-align: left;
+    font-size: 22px;
+    color: white;
+    line-height: 40px;
+    
 }
+

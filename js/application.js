@@ -25,7 +25,6 @@ $(document).ready(function() {
             } else {
                 $('.item').removeClass('red');
                 $('.logo').removeClass('logo-scroll');
-                $('.logo').removeClass('bounceInLeft');
             }
         }
     });
@@ -36,7 +35,7 @@ function configureEventsOfMenu() {
         var clickedLink = $(this).parent();
         var clickedLinkId = clickedLink.attr('id');
 
-        if (clickedLinkId === 'li-second-screen' || clickedLinkId === 'li-third-screen'  || clickedLinkId === 'li-fourth-screen') {
+        if (clickedLinkId === 'li-second-screen' || clickedLinkId === 'li-third-screen') {
             $('.item').addClass('red');
         } else {
             $('.item').removeClass('red');
@@ -64,8 +63,19 @@ $(window).scroll(function() {
 
     if (scroll >= 200) {
         $(".logo").addClass("logo-scroll");
+        $('.logo').addClass('bounceInLeft');
     } else {
         $(".logo").removeClass("logo-scroll");
+    }
+});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 3600) {
+        $(".logo").addClass("logo-white");
+    } else {
+        $(".logo").removeClass("logo-white");
     }
 });
 

@@ -23,7 +23,22 @@
     display: inline-table;
     color: white;
     text-align: center;
+    font-size: 16px;
 }
+
+.member > p {
+    
+    width: 180px;
+    float: right;
+}
+
+.role    {
+    
+    font-family: 'AvenirLTStd85Heavy',sans-serif;
+    font-size: 20px;
+    margin-bottom:0px;
+}
+
 
 #nicolette  {
     
@@ -100,4 +115,16 @@
     height: 200px;
     background-image: url("../img/Mayra2.png");
     background-size: contain;
+}
+
+#made   {
+    
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'AvenirLTStd55Roman';
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    background-color: #e43e25;
 }
