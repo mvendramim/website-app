@@ -198,3 +198,33 @@ a:focus   {
   -moz-transition: 1s;
   -webkit-transition: 1s;
 }
+
+
+.small-item {
+    
+    margin-left: 50px;
+    text-indent: 30px;
+}
+
+#small {
+    
+    width: 600px;
+    
+    z-index: 10000;
+}
+
+
+.logo-small  {
+    
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+    background-image: url("../img/logo.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: fixed;
+    top:1%;
+    z-index: 1000;
+    display: none;
+}
