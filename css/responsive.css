@@ -78,6 +78,40 @@
         background-size: 1500px;
         background-position: center;
     }
+        #steps  {
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .text-right  {
+    
+    width: 100%;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+    .picture-left   {
+    
+    width: 100%;
+    float: left;
+}
+    .text-left  {
+    
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+    .picture-right   {
+    
+    width: 100%;
+    float: left;
+}
+    #how   {
+    height: 3000px;
+    }
 }
 /*media query max 700*/
 
@@ -158,8 +192,19 @@
         background-size: 1500px;
         background-position: center;
     }
+    
+    #steps  {
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
-/*mediaquerie min 700*/
+    #how   {
+    min-height: 2000px;
+    }
+    
+}
+/*media query min 700*/
 
 @media screen and (min-width: 700px) {
     #fixed {
@@ -216,10 +261,10 @@
         float: left;
     }
     #about {
-        width: 50%;
+        width: 60%;
         max-width: 700px;
         height: auto;
-        margin-left: 400px;
+        margin-left: 280px;
         margin-right: 15%;
         margin-top: 50px;
         padding-top: 0px;
@@ -238,8 +283,37 @@
         background-repeat: no-repeat;
         background-size: 2000px;
     }
-    /*media query max 1000px*/
+    
+    .logo   {
+    
+    width: 220px;
+    }
+    
+    #steps  {
+    
+    width: 60%;
+    margin-left: 280px;
 }
+    
+    .text-right  {
+    
+    width: 35%;
+    max-width: 300px;
+    height: auto;
+    float: right;
+    margin-right: 5%;
+    padding-top: 1px;
+    display: block;
+}
+    
+    #how   {
+    min-height: 2000px;
+    }
+    
+
+/*media query min 1000px*/
+
+
 @media screen and (min-width: 1000px) {
     #fixed {
         display: block;
@@ -329,22 +403,27 @@
         background-repeat: no-repeat;
         background-size: 2000px;
     }
-}
-/*#play-video   {
+    .logo   {
     
-     width: 250px;
-    height: 60px;
-    background-size: 230px;
-    background-repeat: no-repeat;
-    display: block;
-    float:left;
-}
-    #download   {
+    width: 270px;
+    }
     
-    width: 250px;
-    height: 60px;
-    background-size: 230px;
-    background-repeat: no-repeat;
+#steps  {
+    
+    width: 60%;
+    margin-left: 350px;
+}
+    .text-right  {
+    
+    width: 35%;
+    max-width: 300px;
+    height: auto;
+    float: right;
+    margin-right: 5%;
+    padding-top: 1px;
     display: block;
-    float: left;
+}
+    #how   {
+    min-height: 2000px;
+    }
 }
