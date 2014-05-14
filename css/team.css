@@ -33,6 +33,11 @@
     float: right;
 }
 
+.member-thumb   {
+    width: 200px;
+    height: 200px;
+}
+
 .role    {
     
     font-family: 'AvenirLTStd85Heavy',sans-serif;
@@ -43,8 +48,7 @@
 
 #nicolette  {
     
-    width: 200px;
-    height: 200px;
+
     background-image: url("../img/Nicolette.png");
     background-size: contain;
     background-position: center top;
@@ -52,32 +56,25 @@
 
 #tori  {
     
-    width: 200px;
-    height: 200px;
+
     background-image: url("../img/Tori2.png");
     background-size: contain;
 }
 
 #cris  {
-    
-    width: 200px;
-    height: 200px;
+
     background-image: url("../img/Cris2.png");
     background-size: contain;
 }
 
 #erica  {
     
-    width: 200px;
-    height: 200px;
     background-image: url("../img/Erica2.png");
     background-size: contain;
 }
 
 #rebecca  {
     
-    width: 200px;
-    height: 200px;
     background-image: url("../img/Rebecca2.png");
     background-size: contain;
 }
@@ -85,8 +82,6 @@
 
 #lindsay  {
     
-    width: 200px;
-    height: 200px;
     background-image: url("../img/Lindsay2.png");
     background-size: contain;
 }
@@ -94,8 +89,6 @@
 
 #cayetana  {
     
-    width: 200px;
-    height: 200px;
     background-image: url("../img/Cayetana2.png");
     background-size: contain;
 }
@@ -103,8 +96,6 @@
 
 #mackenzie  {
     
-    width: 200px;
-    height: 200px;
     background-image: url("../img/Mackenzie2.png");
     background-size: contain;
 }
@@ -112,8 +103,6 @@
 
 #mayra  {
     
-    width: 200px;
-    height: 200px;
     background-image: url("../img/Mayra2.png");
     background-size: contain;
 }
