@@ -1,8 +1,6 @@
 #team   {
     
     width: 100%;
-    height: auto;
-    min-height: 1200px;
     background-color: #2BBCBA;
     padding-top: 50px;
     
@@ -13,7 +11,6 @@
     margin-left: 350px;
     width: 70%;
     max-width: 700px;
-    height: 500px;
 }
 
 .member {
