@@ -31,11 +31,14 @@
     
     width: 180px;
     float: right;
+    clear: both;
+    
 }
 
 .member-thumb   {
     width: 200px;
     height: 200px;
+    background-repeat: no-repeat;
 }
 
 .role    {
@@ -51,7 +54,6 @@
 
     background-image: url("../img/Nicolette.png");
     background-size: contain;
-    background-position: center top;
 }
 
 #tori  {
