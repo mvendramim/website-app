@@ -106,6 +106,10 @@
     height: 3000px;
     }
     
+    #team   {
+    
+    min-height: 3100px;
+    }
     
     
     
@@ -212,8 +216,7 @@
         margin-left: 10px;
     }
     
-    
-}
+  
     .member-thumb   {
     width: 150px;
     height: 200px;
@@ -353,7 +356,7 @@
     }
     
     
-}
+
     .member-thumb   {
     width: 150px;
     height: 200px;
