@@ -11,16 +11,8 @@
         display: none;
     }
     #logo-home {
-        background-image: url("../img/logo-home.png");
-        height: 30%;
+        height: 20%;
         width: 80%;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: 10%;
     }
     #home-container {
         position: relative;
@@ -126,12 +118,8 @@
         display: none;
     }
     #logo-home {
-        background-image: url("../img/logo-home.png");
         height: 30%;
         width: 80%;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
         margin-left: auto;
         margin-right: auto;
         position: relative;
