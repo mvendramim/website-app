@@ -11,7 +11,8 @@
 #team-container {
     
     margin-left: 350px;
-    width: 50%;
+    width: 70%;
+    max-width: 700px;
     height: 500px;
 }
 
@@ -119,12 +120,14 @@
 
 #made   {
     
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     height: auto;
     text-align: center;
     font-family: 'AvenirLTStd55Roman';
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 16px;
+    line-height: 30px;
     color: white;
     background-color: #e43e25;
 }

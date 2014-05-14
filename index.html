@@ -7,45 +7,84 @@
     <title>Exposure</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="" />
+    <meta name="description" content="Exposure is an app to help you better expand your knowledge. You can take a picture
+of text and Exposure will turn the words into text that you can search. Choose to
+search from Google, Serendipomatic, Bing, dictionary.com, Amazon, Google Translate
+and Google Images. If you would like to do an image search, take a picture of anything!
+Exposure will let you search for similar images in Google Images, Bing Images and
+Flickr. If you’re confused about a word you read in your novel, a menu item at a
+restaurant, or even the meaning of a street sign, Exposure is here to help. There are
+endless possibilities. Exposure is a new way of searching, what will you find out?" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nav-lateral.css">
+    <link rel="stylesheet" href="css/nav-horizontal.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/how.css">
     <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/jquery.nav.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" href="./magnific/magnific-popup.css">
     <script src="./magnific/jquery.magnific-popup.js"></script>
 
 </head>
 
 <body>
+    <!--bootstrap nav-->
+
+    <header class="navbar navbar-default navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="./" class="navbar-brand"></a>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">
+                            <p class="link">home</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#second-screen">
+                            <p class="link">about the app</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#how">
+                            <p class="link">how it works</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#team">
+                            <p class="link">the team</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--bootstrap nav-->
+
     <div class="logo animated"></div>
     <div id="fixed">
-        
-        <!--small nav-->
-        <div id="small">
-        <div class="logo-small"></div>
-            <ul id="nav">
-                <li class="item nav-text current small-item">
-                    <a href="#home">&nbsp;&nbsp;&nbsp;&nbsp;home</a>
-                </li>
-                <li class="item nav-text" id="li-second-screen">
-                    <a href="#second-screen">&nbsp;&nbsp;&nbsp;&nbsp;about</a>
-                </li><br>
-                <li class="item nav-text small-item" id="li-third-screen">
-                    <a href="#how">&nbsp;&nbsp;&nbsp;&nbsp;how it works</a>
-                </li>
-                <li class="item nav-text" id="li-fourth-screen">
-                    <a href="#team">&nbsp;&nbsp;&nbsp;&nbsp;the team</a>
-                </li>
-            </ul>
-            
-            </div>
-        
+
+
+
         <nav class="home-nav">
             <ul id="nav">
                 <li class="item nav-text current">
@@ -67,15 +106,18 @@
 
         <div id="logo-home"></div>
 
-    <div id="home-container"><p id="headline">What will you <br>find out?</p>
+        <div id="home-container">
+            <p id="headline">What will you find out?</p>
 
-    <div id="download">
-    </div>
-        
-        <a class="popup-vimeo" href="http://vimeo.com/71054010">
-        <div id="play-video"></div>
-    </a>
-        
+            <div id="buttons-container">
+                <div id="download">
+                </div>
+
+                <a class="popup-vimeo" href="http://vimeo.com/71054010">
+                    <div id="play-video"></div>
+                </a>
+
+            </div>
         </div>
 
 
@@ -86,14 +128,7 @@
 
             <div id="about">
                 <p class="title">About the App</p>
-                <p class="description-app" >Exposure is an app to help you better expand your knowledge. You can take a picture
-of text and Exposure will turn the words into text that you can search. Choose to
-search from Google, Serendipomatic, Bing, dictionary.com, Amazon, Google Translate
-and Google Images. If you would like to do an image search, take a picture of anything!
-Exposure will let you search for similar images in Google Images, Bing Images and
-Flickr. If you’re confused about a word you read in your novel, a menu item at a
-restaurant, or even the meaning of a street sign, Exposure is here to help. There are
-endless possibilities. Exposure is a new way of searching, what will you find out?</p>
+                <p class="description-app">Exposure is an app to help you better expand your knowledge. You can take a picture of text and Exposure will turn the words into text that you can search. Choose to search from Google, Serendipomatic, Bing, dictionary.com, Amazon, Google Translate and Google Images. If you would like to do an image search, take a picture of anything! Exposure will let you search for similar images in Google Images, Bing Images and Flickr. If you’re confused about a word you read in your novel, a menu item at a restaurant, or even the meaning of a street sign, Exposure is here to help. There are endless possibilities. Exposure is a new way of searching, what will you find out?</p>
             </div>
         </div>
     </div>
@@ -134,40 +169,80 @@ endless possibilities. Exposure is a new way of searching, what will you find ou
 
     <div id="team">
 
-        <p class="title">Team A</p>
+        <p class="title">The Team</p>
 
         <div id="team-container">
-             <div class="member"><div id="cayetana" class="wow bounceInLeft fadeInDown"data-wow-delay="0.6s" ></div><p class="role">Presentation Designer/Video Producer</p><p>Would die without the internet.</p></div>
-            <div class="member"><div id="cris" class="wow bounceInLeft fadeInDown"data-wow-delay="0.6s"></div><p style="padding-top:5px;" class="role">Programmer</p><p>Enjoys swimming and Ubuntu.<br>&nbsp;<br>&nbsp;</p></div>
-            <div class="member"><div id="erica" class="wow bounceInLeft fadeInDown"data-wow-delay="0.6s"></div><p style="padding-top:5px;" class="role">Visual Designer</p><p>Yogi, cat lady, and animal sweater collector.<br>&nbsp;</p></div>
-            <div class="member"><div id="lindsay" class="wow bounceInLeft fadeInDown"data-wow-delay="0.6s"></div><p class="role">Visual Designer</p><p>Avid fan of wild colors and anything that involves foliage. </p></div>
-            <div class="member"><div id="mackenzie" class="wow bounceInLeft fadeInDown"data-wow-delay="0.6s"></div><p class="role">Presentation Designer</p><p>Lover of watches, road trips, and chocolate.</p></div>
-            
-            <div class="member"><div id="mayra" class="wow bounceInLeft fadeInDown"data-wow-delay="0.6s"></div><p class="role">Web Designer</p><p>Brazilian. Loves video games, cats <br>and sea food.</p></div>
-            
-            <div class="member"><div id="nicolette" class="wow bounceInLeft fadeInDown"data-wow-delay="0.8s"></div><p class="role">Project Manager</p><p>Obsessed with crafting and DIY projects.</p></div>
-            
-            <div class="member"><div id="rebecca" class="wow bounceInLeft fadeInDown"data-wow-delay="0.8s"></div><p class="role">Visual Designer</p><p>Obsessed with tea, books, and Netflix.</p></div>
+            <div class="member">
+                <div id="cayetana" class="wow bounceInLeft fadeInDown" data-wow-delay="0.6s"></div>
+                <p class="role">Presentation Designer/Video Producer</p>
+                <p>Would die without the internet.</p>
+            </div>
+            <div class="member">
+                <div id="cris" class="wow bounceInLeft fadeInDown" data-wow-delay="0.8s"></div>
+                <p style="padding-top:5px;" class="role">Programmer</p>
+                <p>Enjoys swimming and Ubuntu.
+                    <br>&nbsp;
+                    <br>&nbsp;</p>
+            </div>
+            <div class="member">
+                <div id="erica" class="wow bounceInLeft fadeInDown" data-wow-delay="1.0s"></div>
+                <p style="padding-top:5px;" class="role">Visual Designer</p>
+                <p>Yogi, cat lady, and animal sweater collector.
+                    <br>&nbsp;</p>
+            </div>
+            <div class="member">
+                <div id="lindsay" class="wow bounceInLeft fadeInDown" data-wow-delay="1.2s"></div>
+                <p class="role">Visual Designer</p>
+                <p>Avid fan of wild colors and anything that involves foliage.</p>
+            </div>
+            <div class="member">
+                <div id="mackenzie" class="wow bounceInLeft fadeInDown" data-wow-delay="1.4s"></div>
+                <p class="role">Presentation Designer</p>
+                <p>Lover of watches, road trips, and chocolate.</p>
+            </div>
 
-             <div class="member"><div id="tori" class="wow bounceInLeft fadeInDown"data-wow-delay="0.8s"></div><p class="role">UX Strategist</p><p>In love with crocheting, crafting, and books. </p></div>
+            <div class="member">
+                <div id="mayra" class="wow bounceInLeft fadeInDown" data-wow-delay="1.6s"></div>
+                <p class="role">Web Designer</p>
+                <p>Brazilian. Loves video games, cats
+                    <br>and sea food.</p>
+            </div>
+
+            <div class="member">
+                <div id="nicolette" class="wow bounceInLeft fadeInDown" data-wow-delay="0.6s"></div>
+                <p class="role">Project Manager</p>
+                <p>Obsessed with crafting and DIY projects.</p>
+            </div>
+
+            <div class="member">
+                <div id="rebecca" class="wow bounceInLeft fadeInDown" data-wow-delay="0.8s"></div>
+                <p class="role">Visual Designer</p>
+                <p>Obsessed with tea, books, and Netflix.</p>
+            </div>
+
+            <div class="member">
+                <div id="tori" class="wow bounceInLeft fadeInDown" data-wow-delay="1.0s"></div>
+                <p class="role">UX Strategist</p>
+                <p>In love with crocheting, crafting, and books.</p>
+            </div>
 
 
 
         </div>
 
     </div>
-    
-    <div id="made">Made with &#10084; in the Interaction Design Class, oriented by Amy Papaelias.  </div>
+
+    <div id="made">Made with &#10084; in Interaction Design | Graphic Design Program | SUNY New Paltz.<br>Faculty advisors: Amy Papaelias (Graphic Design) and Andy Pletch (Computer Science).</div>
 
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
         var s = skrollr.init();
     </script>
-    
+
     <script src="js/wow.min.js"></script>
-<script>
- new WOW().init();
-</script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 

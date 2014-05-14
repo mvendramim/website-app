@@ -4,6 +4,7 @@
     height: 600px;
     width: 300px;
     top: 0px;
+    
 }
 
 .logo   {
@@ -73,14 +74,52 @@
 .item > a {
     color: white;
 }
+
+.item > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.item > a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.item > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.item > a:focus {
+    color: white;
+    text-decoration: none;
+}
 .item.red > a {
     color: #e43e25;
 }
-.item.yellow > a {
-    color: yellow;
+
+.item.red > a:hover {
+    color: #e43e25;
+    text-decoration: none;
+    
+}
+    
+.item.red > a:active {
+    color: #e43e25;
+    text-decoration: none;
 }
 
+    .item.red > a:visited {
+    color: #e43e25;
+    text-decoration: none;
+}
 
+    .item.red > a:focus {
+    color: #e43e25;
+    text-decoration: none;
+}
+    
+    
 
 .current  {
     
@@ -96,6 +135,7 @@
    -moz-transition: all 0.25s ease;
    -webkit-transition: all 0.25s ease;
 }
+
 
 .selected-item-red  {
     
