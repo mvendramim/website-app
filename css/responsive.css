@@ -88,8 +88,10 @@
     
     width: 100%;
     display: block;
-        margin-left: auto;
-        margin-right: auto;
+    float: left;
+        margin-left:auto;
+        margin-right:auto;
+        
 }
     .picture-left   {
     
@@ -100,8 +102,6 @@
     
     width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
         
 }
     .picture-right   {
