@@ -82,8 +82,9 @@
     width: 100%;
     display: block;
     float: left;
-        margin-left:auto;
-        margin-right:auto;
+        
+        margin-left: 30px;
+        margin-top: 25px;
         
 }
     .picture-left   {
@@ -95,6 +96,8 @@
     
     width: 100%;
     display: block;
+        margin-left: 30px;
+        margin-top: 25px;
         
 }
     .picture-right   {
@@ -103,7 +106,7 @@
     float: left;
 }
     #how   {
-    height: 3000px;
+    height: 2600px;
     }
     
     
@@ -228,7 +231,7 @@
     margin-right: auto;
 }
     #how   {
-    min-height: 2000px;
+    min-height: 1700px;
     }
     
      #team-container {
