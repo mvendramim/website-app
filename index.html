@@ -236,7 +236,11 @@ endless possibilities. Exposure is a new way of searching, what will you find ou
 
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
-        var s = skrollr.init();
+        var windowWidth = $(window).width();
+	if(windowWidth > 767) {
+		var s = skrollr.init();
+	}
+        
     </script>
 
     <script src="js/wow.min.js"></script>

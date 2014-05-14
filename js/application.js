@@ -1,6 +1,7 @@
 $(document).ready(function() {
     configureLightBox();
     configureEventsOfMenu();
+    
 
     $('#nav').onePageNav({
         currentClass: 'current',
@@ -78,4 +79,6 @@ $(window).scroll(function() {
         $(".logo").removeClass("logo-white");
     }
 });
+
+
 
